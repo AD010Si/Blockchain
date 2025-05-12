@@ -24,8 +24,13 @@ contract Arrays {
     like this can be useful for storing structured data in your contract, kind of like a database. */
 
     // Public Array: We can create an as public, and Solidity will automatically create a getter method for it.
-    Person[] public _people;
+    Person[] public listOfPeople;
     /* Other contracts would then be able to read from, but not write to, this array. So this is a useful pattern for 
     storing public data in your contract. */
+
+    // adding Data to the array.
+    function setData(string memory _name, uint256 _age) public {
+        listOfPeople.push(Person(_name, _age));
+    }
 
 }
