@@ -1,7 +1,7 @@
 # Smart contract Deployment 
 In this module we are going to learn about how to deploy a smartcontract on Blockchain. But before doing that we are gonna need some prerequisites.
-First we need an IDE or say editor for writing the smartcontract. In this case we are going to use RemixIDE it's fast, compact and smart architecture made easy to use for bigginer like me.
-Second we need a language of smartcontract to write. Here we are gonna use solidity because it is popular among developers, it is safe and we can find contracts in solidity easily.
+First we need an IDE or say editor for writing the smartcontract. In this case we are going to use RemixIDE.
+Second we need a language of smartcontract to write. Here we are gonna use solidity.
 Third we need a Blockchain to deploy our smartcontract. so, we gonna use here sepolia testnets to deploy our smartcontracts.
 And, to handle those coins we gonna use Metamask.
 
